@@ -82,9 +82,28 @@ Your Consultancy Careers website is fully configured and ready to use! Here's wh
 ### 🚀 Deployment Options
 
 #### Vercel (Recommended)
-1. Connect GitHub repository to Vercel
-2. Set environment variables in Vercel dashboard
-3. Deploy automatically
+1. **Connect Repository**: 
+   - Go to [vercel.com](https://vercel.com)
+   - Import your GitHub repository
+   - Vercel will auto-detect Next.js configuration
+
+2. **Set Environment Variables** in Vercel Dashboard:
+   ```
+   NEXT_PUBLIC_SANITY_PROJECT_ID=9usx959t
+   NEXT_PUBLIC_SANITY_DATASET=production
+   NEXT_PUBLIC_SANITY_API_VERSION=2024-01-01
+   SANITY_API_TOKEN=skFFyev0n4GUdYzqw1aCIHKsEOthtIWQJ9GfvClQBeG3VHxZ0yuce2tPResAFI0ucrHrEREV3Mzne6rthAzkC0EXWuccO9rmre7nHaXAPguckCWPf1boIp1lyL7OcAwFZqergvnSBympbC088VAWFQ8Q42qpGF03ZKSXkHUEX0lbE4Mrxyml
+   NEXT_PUBLIC_SUPABASE_URL=https://wtbxcmlferpdxculpfkw.supabase.co
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind0YnhjbWxmZXJwZHhjdWxwZmt3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA5MjU5NjcsImV4cCI6MjA3NjUwMTk2N30.-M2-ZLMLBqpm3Il-zYqSpRxBZasprI7xS0_Mq1jrAe4
+   SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind0YnhjbWxmZXJwZHhjdWxwZmt3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDkyNTk2NywiZXhwIjoyMDc2NTAxOTY3fQ.pHBmihsoqAd_gDemTpGa19lOLCnDLVMKI3HZRi5Xbsk
+   ```
+
+3. **Deploy**: Vercel will automatically build and deploy your application
+
+4. **Vercel Configuration Files Added**:
+   - `vercel.json` - Deployment configuration
+   - `.vercelignore` - Files to exclude from deployment
+   - Updated `package.json` with proper build scripts
 
 #### Other Platforms
 - **Netlify**: Supports Next.js out of the box
