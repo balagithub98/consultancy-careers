@@ -3,6 +3,7 @@ import { Job } from '@/lib/sanity'
 import { notFound } from 'next/navigation'
 import { PortableText } from '@portabletext/react'
 import { MapPin, Briefcase, DollarSign, Calendar, Clock } from 'lucide-react'
+import Link from 'next/link'
 import JobApplicationForm from '@/components/JobApplicationForm'
 
 interface JobPageProps {
