@@ -10,7 +10,7 @@ export const client = createClient({
 
 const builder = imageUrlBuilder(client)
 
-export function urlFor(source: unknown) {
+export function urlFor(source: any) {
   return builder.image(source)
 }
 
@@ -27,9 +27,9 @@ export interface Job {
   location: string
   employmentType: 'full-time' | 'part-time' | 'contract' | 'internship'
   salaryRange?: string
-  description: unknown[]
-  requirements?: unknown[]
-  benefits?: unknown[]
+  description: any[]
+  requirements?: any[]
+  benefits?: any[]
   department?: string
   experienceLevel?: 'entry' | 'mid' | 'senior' | 'lead'
   remote: boolean
