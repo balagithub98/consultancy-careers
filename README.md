@@ -1,6 +1,8 @@
 # gigmarines Website
 
-A modern careers website for gigmarines built with Next.js, Supabase, and Sanity CMS. This application allows HR teams to manage job postings through Sanity Studio, while job seekers can browse and apply for positions directly on the website.
+A modern careers website for gigmarines built with Next.js, Supabase, and Sanity CMS.
+
+<!-- Updated for Vercel deployment --> This application allows HR teams to manage job postings through Sanity Studio, while job seekers can browse and apply for positions directly on the website.
 
 ## Features
 
