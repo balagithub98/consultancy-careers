@@ -1,5 +1,6 @@
 import { createClient } from '@sanity/client'
 import imageUrlBuilder from '@sanity/image-url'
+import { PortableTextBlock } from '@portabletext/types'
 
 export const client = createClient({
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
@@ -10,7 +11,7 @@ export const client = createClient({
 
 const builder = imageUrlBuilder(client)
 
-export function urlFor(source: any) {
+export function urlFor(source: unknown) {
   return builder.image(source)
 }
 
@@ -27,9 +28,9 @@ export interface Job {
   location: string
   employmentType: 'full-time' | 'part-time' | 'contract' | 'internship'
   salaryRange?: string
-  description: any[]
-  requirements?: any[]
-  benefits?: any[]
+  description: PortableTextBlock[]
+  requirements?: PortableTextBlock[]
+  benefits?: PortableTextBlock[]
   department?: string
   experienceLevel?: 'entry' | 'mid' | 'senior' | 'lead'
   remote: boolean
