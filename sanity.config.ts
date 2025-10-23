@@ -6,8 +6,8 @@ import { jobType } from './sanity/schemas/job'
 export default defineConfig({
   name: 'gigmarines',
   title: 'gigmarines',
-  projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
-  dataset: process.env.NEXT_PUBLIC_SANITY_DATASET!,
+  projectId: '9usx959t',
+  dataset: 'production',
   plugins: [
     structureTool(),
     visionTool(),

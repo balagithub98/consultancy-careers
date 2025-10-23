@@ -4,14 +4,6 @@
   "framework": "nextjs",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "env": {
-    "NEXT_PUBLIC_SANITY_PROJECT_ID": "@sanity_project_id",
-    "NEXT_PUBLIC_SANITY_DATASET": "@sanity_dataset",
-    "NEXT_PUBLIC_SANITY_API_VERSION": "@sanity_api_version",
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_anon_key",
-    "SANITY_API_TOKEN": "@sanity_api_token"
-  },
   "functions": {
     "src/app/api/**/*.ts": {
       "runtime": "nodejs18.x"
