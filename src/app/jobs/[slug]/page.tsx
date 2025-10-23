@@ -7,9 +7,9 @@ import Link from 'next/link'
 import JobApplicationForm from '@/components/JobApplicationForm'
 
 interface JobPageProps {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 async function getJob(slug: string): Promise<Job | null> {
