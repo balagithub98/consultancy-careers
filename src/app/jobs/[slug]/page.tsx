@@ -56,12 +56,12 @@ export default async function JobPage({ params }: JobPageProps) {
               <Briefcase className="h-8 w-8 text-slate-700" />
               <h1 className="ml-2 text-2xl font-bold text-gray-900">gigmarines</h1>
             </div>
-            <a 
+            <Link 
               href="/" 
               className="text-slate-700 hover:text-slate-900 font-medium"
             >
               ← Back to Jobs
-            </a>
+            </Link>
           </div>
         </div>
       </header>

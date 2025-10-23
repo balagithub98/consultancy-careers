@@ -142,7 +142,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
         <CheckCircle className="h-12 w-12 text-green-500 mx-auto mb-4" />
         <h4 className="text-lg font-medium text-gray-900 mb-2">Application Submitted!</h4>
         <p className="text-gray-600 mb-4">
-          Thank you for your interest in the {jobTitle} position. We'll review your application and get back to you soon.
+          Thank you for your interest in the {jobTitle} position. We&apos;ll review your application and get back to you soon.
         </p>
         <button
           onClick={() => setIsSuccess(false)}

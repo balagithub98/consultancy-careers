@@ -160,7 +160,7 @@ export default async function HomePage() {
           <div className="text-center">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">Why Work With gigmarines?</h3>
             <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-              We're a leading consultancy firm in India that values innovation, collaboration, and professional growth. 
+              We&apos;re a leading consultancy firm in India that values innovation, collaboration, and professional growth. 
               Join our team of gigmarines and work on challenging projects with industry experts across India.
             </p>
             
