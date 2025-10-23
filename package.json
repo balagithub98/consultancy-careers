@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "studio": "npx sanity@latest dev",
-    "postbuild": "next-sanity@latest build"
+    "postbuild": "npx next-sanity@latest build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
