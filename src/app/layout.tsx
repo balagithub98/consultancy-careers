@@ -5,20 +5,20 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Consultancy Careers - Find Your Next Opportunity',
-  description: 'Join our team of experts and help shape the future of technology consulting. Browse open positions and apply today.',
-  keywords: 'careers, jobs, consultancy, technology, software engineering, consulting',
-  authors: [{ name: 'Consultancy Firm' }],
+  title: 'gigmarines - Find Your Next Gig',
+  description: 'Join our team of gigmarines and help shape the future of technology consulting in India. Browse open positions and apply today.',
+  keywords: 'careers, jobs, gigmarines, technology, software engineering, consulting, gigs, India, Mumbai, Delhi, Bangalore',
+  authors: [{ name: 'gigmarines' }],
   openGraph: {
-    title: 'Consultancy Careers - Find Your Next Opportunity',
-    description: 'Join our team of experts and help shape the future of technology consulting.',
+    title: 'gigmarines - Find Your Next Gig',
+    description: 'Join our team of gigmarines and help shape the future of technology consulting in India.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Consultancy Careers - Find Your Next Opportunity',
-    description: 'Join our team of experts and help shape the future of technology consulting.',
+    title: 'gigmarines - Find Your Next Gig',
+    description: 'Join our team of gigmarines and help shape the future of technology consulting in India.',
   },
 }
 

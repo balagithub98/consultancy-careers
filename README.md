@@ -1,6 +1,6 @@
-# Consultancy Careers Website
+# gigmarines Website
 
-A modern careers website for a consultancy firm built with Next.js, Supabase, and Sanity CMS. This application allows HR teams to manage job postings through Sanity Studio, while job seekers can browse and apply for positions directly on the website.
+A modern careers website for gigmarines built with Next.js, Supabase, and Sanity CMS. This application allows HR teams to manage job postings through Sanity Studio, while job seekers can browse and apply for positions directly on the website.
 
 ## Features
 
@@ -34,7 +34,7 @@ Before you begin, ensure you have:
 
 ```bash
 git clone <your-repo-url>
-cd consultancy-nextjs
+cd gigmarines-nextjs
 npm install
 ```
 

@@ -146,7 +146,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
         </p>
         <button
           onClick={() => setIsSuccess(false)}
-          className="text-blue-600 hover:text-blue-800 font-medium"
+          className="text-slate-700 hover:text-slate-900 font-medium"
         >
           Submit Another Application
         </button>
@@ -167,15 +167,15 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
 
       <div className="grid grid-cols-2 gap-4">
         <div>
-          <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="firstName" className="block text-sm font-medium text-gray-900 mb-1">
             First Name *
           </label>
           <input
             {...register('firstName')}
             type="text"
             id="firstName"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            placeholder="John"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-300 text-gray-900 placeholder-gray-500 transition-colors duration-200"
+            placeholder="Rajesh"
           />
           {errors.firstName && (
             <p className="mt-1 text-sm text-red-600">{errors.firstName.message}</p>
@@ -183,15 +183,15 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
         </div>
 
         <div>
-          <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-1">
+          <label htmlFor="lastName" className="block text-sm font-medium text-gray-900 mb-1">
             Last Name *
           </label>
           <input
             {...register('lastName')}
             type="text"
             id="lastName"
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            placeholder="Doe"
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-300 text-gray-900 placeholder-gray-500 transition-colors duration-200"
+            placeholder="Kumar"
           />
           {errors.lastName && (
             <p className="mt-1 text-sm text-red-600">{errors.lastName.message}</p>
@@ -200,7 +200,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
       </div>
 
       <div>
-        <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+        <label htmlFor="email" className="block text-sm font-medium text-gray-900 mb-1">
           Email Address *
         </label>
         <input
@@ -208,7 +208,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
           type="email"
           id="email"
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          placeholder="john.doe@example.com"
+          placeholder="rajesh.kumar@example.com"
         />
         {errors.email && (
           <p className="mt-1 text-sm text-red-600">{errors.email.message}</p>
@@ -216,7 +216,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
       </div>
 
       <div>
-        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+        <label htmlFor="phone" className="block text-sm font-medium text-gray-900 mb-1">
           Phone Number
         </label>
         <input
@@ -224,7 +224,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
           type="tel"
           id="phone"
           className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-          placeholder="+1 (555) 123-4567"
+          placeholder="+91 98765 43210"
         />
         {errors.phone && (
           <p className="mt-1 text-sm text-red-600">{errors.phone.message}</p>
@@ -232,16 +232,16 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
       </div>
 
       <div>
-        <label htmlFor="resume" className="block text-sm font-medium text-gray-700 mb-1">
+        <label htmlFor="resume" className="block text-sm font-medium text-gray-900 mb-1">
           Resume/CV
         </label>
-        <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md hover:border-gray-400 transition-colors">
+        <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md hover:border-gray-400 transition-colors duration-200">
           <div className="space-y-1 text-center">
             <Upload className="mx-auto h-12 w-12 text-gray-400" />
-            <div className="flex text-sm text-gray-600">
+            <div className="flex text-sm text-gray-800">
               <label
                 htmlFor="resume"
-                className="relative cursor-pointer bg-white rounded-md font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500"
+                className="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-700 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 transition-colors duration-200"
               >
                 <span>Upload a file</span>
                 <input
@@ -255,7 +255,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
               </label>
               <p className="pl-1">or drag and drop</p>
             </div>
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-gray-700">
               PDF, DOC, DOCX up to 5MB
             </p>
           </div>
@@ -268,7 +268,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
       </div>
 
       <div>
-        <label htmlFor="coverLetter" className="block text-sm font-medium text-gray-700 mb-1">
+        <label htmlFor="coverLetter" className="block text-sm font-medium text-gray-900 mb-1">
           Cover Letter
         </label>
         <textarea
@@ -286,7 +286,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
       <button
         type="submit"
         disabled={isSubmitting || isUploadingResume}
-        className="w-full flex justify-center items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full flex justify-center items-center px-6 py-3 border border-transparent rounded-lg text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
       >
         {isSubmitting || isUploadingResume ? (
           <>
@@ -298,7 +298,7 @@ export default function JobApplicationForm({ jobId, jobTitle }: JobApplicationFo
         )}
       </button>
 
-      <p className="text-xs text-gray-500 text-center">
+      <p className="text-xs text-gray-700 text-center">
         By submitting this application, you agree to our privacy policy and terms of service.
       </p>
     </form>

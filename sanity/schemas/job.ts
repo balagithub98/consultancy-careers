@@ -25,13 +25,14 @@ export const jobType = defineType({
       name: 'company',
       title: 'Company',
       type: 'string',
-      initialValue: 'Consultancy Firm',
+      initialValue: 'gigmarines India',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
       name: 'location',
       title: 'Location',
       type: 'string',
+      placeholder: 'e.g., Mumbai, Delhi, Bangalore, Chennai, Hyderabad',
       validation: (Rule) => Rule.required(),
     }),
     defineField({
@@ -53,7 +54,7 @@ export const jobType = defineType({
       name: 'salaryRange',
       title: 'Salary Range',
       type: 'string',
-      placeholder: 'e.g., $80,000 - $120,000',
+      placeholder: 'e.g., ₹8,00,000 - ₹12,00,000',
     }),
     defineField({
       name: 'description',

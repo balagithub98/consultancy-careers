@@ -4,8 +4,8 @@ import { visionTool } from '@sanity/vision'
 import { jobType } from './sanity/schemas/job'
 
 export default defineConfig({
-  name: 'consultancy-careers',
-  title: 'Consultancy Careers',
+  name: 'gigmarines',
+  title: 'gigmarines',
   projectId: '9usx959t',
   dataset: 'production',
   plugins: [
